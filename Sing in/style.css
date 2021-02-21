@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1B2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 95vh;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #eb5757;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+main h1:hover {
+    color: #5952d4;
+    transition: 0.7s; 
+}
+
+main.social-media {
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+}
+
+main .social-media img {
+    width: 25px;
+    margin-left: 3.6rem;
+}
+
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+main .alternative {
+    margin-top: 0.8rem;
+}
+
+main .alternative span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+main .alternative span::before, main .alternative span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+main .alternative span::after {
+    left: 50px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1rem;
+    margin-top: 0.9rem;
+}
+
+main form input {
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 70%;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 32px;
+    background: #eb5757;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #5952d4;
+}
+
+section.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-right: 9rem;
+}
+
+section.images img {
+    width: 100%;
+}
+
+section.images .circle {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, #eb5757, #1B2029);
+    clip-path: circle(43% at right 10%);
+    z-index: -1;
+}
+
+section h1{
+    color: #eb5757;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.option {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.color-option {
+    color:#5952d4;
+}
+
+.title-right {
+    width: 100%;
+}
+
+.title-right h3{
+    color: #fff;
+    font-size: 3.6rem;
+    font-family: "Poppins", sans-serif;
+    text-shadow: .7rem .6rem 8px rgba(0, 0, 0, 5);
+}
+
+.title-right h3:hover {
+    color: #c8c7cf;
+    transition: 0.7s;
+}
+
+.title-right p{
+    color: #a7acb3;
+    font-size: 1.8rem;
+    text-shadow: .4rem .4rem 4px rgba(1, 1, 1, 5);
+}
+
+.title-right p:hover {
+    color: #d8d8e7;
+    transition: 0.7s; 
+}
+
+.keyy {
+    color: #fff;
+}
