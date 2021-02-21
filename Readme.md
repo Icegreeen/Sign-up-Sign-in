@@ -2,7 +2,7 @@
 <h1 align="center">
     <a">🔗 Sign up || Sign in</a>
 </h1>
-<p align="center">🚀 Two registration and login pages developed in HTML5 and CSS3.</p>
+<p align="center">🚀 Two registration and login pages developed in HTML5 and CSS3.</p>  <img src="https://img.shields.io/badge/-HTML5%20and%20CSS-critical"/> 
 
 > Status do Projeto: Concluido :heavy_check_mark: <img src="https://img.shields.io/badge/-HTML5%20and%20CSS-critical"/> 
 
